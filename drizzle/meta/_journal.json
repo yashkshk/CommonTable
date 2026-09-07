@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1788795585349,
+      "tag": "0000_cool_living_tribunal",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1788795599104,
+      "tag": "0001_atomic_order_rules",
+      "breakpoints": true
+    }
+  ]
+}
