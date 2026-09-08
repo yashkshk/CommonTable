@@ -2,7 +2,7 @@
 
 ## Target
 
-This is a server-backed Cloudflare Workers application with D1, not a static export. It cannot run on GitHub Pages. The source includes Sites-compatible logical binding metadata but has not been registered or published to Sites. No Cloudflare account, repository, or live deployment was changed while preparing this package.
+This is a server-backed Cloudflare Workers application with D1, not a static export. It cannot run on GitHub Pages. The source includes Sites-compatible logical binding metadata but has not been registered or published to Sites. Publishing the source repository does not deploy the application or provision any Cloudflare resources.
 
 ## Run the deployment build locally
 

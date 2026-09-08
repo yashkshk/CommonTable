@@ -66,5 +66,24 @@
     "@esbuild-kit/core-utils": {
       "esbuild": "0.25.12"
     }
-  }
+  },
+  "description": "Department-aware campus canteen with transactional ordering, staff coin wallets, and kitchen management.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yashkshk/CommonTable.git"
+  },
+  "homepage": "https://github.com/yashkshk/CommonTable#readme",
+  "bugs": {
+    "url": "https://github.com/yashkshk/CommonTable/issues"
+  },
+  "keywords": [
+    "campus",
+    "canteen",
+    "ordering",
+    "react",
+    "typescript",
+    "cloudflare",
+    "d1"
+  ]
 }

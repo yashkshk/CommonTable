@@ -1,0 +1,22 @@
+name: Feature request
+description: Propose a focused improvement.
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: User need
+      description: Who needs this and what cannot they accomplish today?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the expected workflow, alternatives, and relevant boundaries.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How could a reviewer verify that this solves the problem?

@@ -1,0 +1,32 @@
+name: Bug report
+description: Report a reproducible application defect.
+body:
+  - type: markdown
+    attributes:
+      value: Do not include secrets or private staff data. Follow SECURITY.md for vulnerabilities.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Include actual and expected behavior.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Use local demo data and provide the smallest reproducible example.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Commit/version, Node version, operating system, browser, and local or deployed runtime.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs or screenshots
+      description: Remove tokens, cookies, passwords and personal data before uploading.
